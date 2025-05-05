@@ -41,7 +41,7 @@ public class NoBlock : BasePlugin
         if (string.IsNullOrWhiteSpace(className)) return;
 
         if (className.Contains("_projectile"))
-            entity.As<CBaseEntity>().SetCollisionGroup(CollisionGroup.COLLISION_GROUP_NEVER);
+            entity.As<CBaseEntity>().SetCollisionGroup(CollisionGroup.COLLISION_GROUP_DEBRIS);
     }
 
     [GameEventHandler]
