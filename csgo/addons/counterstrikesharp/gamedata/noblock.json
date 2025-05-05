@@ -1,0 +1,8 @@
+{
+	"OnCollisionRulesChangedOffset": {
+		"offsets": {
+		  "windows": 179,
+		  "linux": 178
+		}
+	}
+}
